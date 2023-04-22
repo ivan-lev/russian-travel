@@ -1,0 +1,21 @@
+/* ВЕНДОРНЫЕ ШРИФТЫ И ФАЙЛЫ */
+
+@import url('../vendor/normalize.css');
+@import url('fonts.css');
+
+/* ОБЩИЕ СТИЛИ ДЛЯ СТРАНИЦЫ */
+
+@import url('../blocks/page/page.css');
+
+/* СТИЛИ ДЛЯ ОТСТУПОВ У СЕКЦИЙ */
+
+@import url('../blocks/section/_size/section_size_lg-narrow.css');
+@import url('../blocks/section/_size/section_size_lg-wide.css');
+@import url('../blocks/section/_size/section_size_md-narrow.css');
+@import url('../blocks/section/_size/section_size_md-wide.css');
+@import url('../blocks/section/_size/section_size_sm-narrow.css');
+@import url('../blocks/section/_size/section_size_sm-wide.css');
+@import url('../blocks/section/_size/section_size_xl-narrow.css');
+@import url('../blocks/section/_size/section_size_xl-wide.css');
+
+/* СТИЛИ ДЛЯ СЕКЦИИ HEADER */
