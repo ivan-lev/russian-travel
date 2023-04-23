@@ -34,5 +34,13 @@
 @import url('../blocks/lead/__image/lead__image.css');
 @import url('../blocks/lead/__caption/lead__caption.css');
 
-/* @import url('../blocks/lead/lead.css'); */
-/* @import url('../blocks/lead/lead.css'); */
+/* СТИЛИ ДЛЯ СЕКЦИИ INTRO */
+
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__text/intro-text.css');
+@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list/_font-weight/intro__list_font-weight_normal.css');
+
+/* @import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/lead.css'); */
