@@ -1,3 +1,5 @@
-.section_size_lg-narrow {
-  padding: 0 48px;
+@media screen and (max-width: 1279px) {
+  .section_size_lg-narrow {
+    padding: 0 48px;
+  }
 }

@@ -1,0 +1,18 @@
+.header__lang-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__lang-link:first-child {
+  flex-basis: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

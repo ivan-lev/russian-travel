@@ -1,3 +1,5 @@
-.section_size_sm-narrow {
-  padding: 0 16px;
+@media screen and (max-width: 767px) {
+  .section_size_sm-narrow {
+    padding: 0 16px;
+  }
 }
