@@ -1,0 +1,14 @@
+.cover__background {
+  width: 100%;
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
+    url('../../../images/cover-image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

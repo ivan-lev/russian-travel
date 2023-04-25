@@ -48,6 +48,7 @@
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
 /* СТИЛИ ДЛЯ СЕКЦИИ PLACES */
+
 @import url('../blocks/places/places.css');
 @import url('../blocks/place/place.css');
 @import url('../blocks/place/__title/place__title.css');
@@ -57,6 +58,14 @@
 @import url('../blocks/place/__link/place__link.css');
 @import url('../blocks/place/__text-area/place__text-area.css');
 @import url('../blocks/place/__paragraph/place__paragraph.css');
+
+/* СТИЛИ ДЛЯ СЕКЦИИ COVER */
+
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/cover/__overlay/cover__overlay.css');
+@import url('../blocks/cover/__background/cover__background.css');
 
 /* @import url('../blocks/');
 @import url('../blocks/');
