@@ -1,10 +1,11 @@
 # Проект: Путешествие по России
 
 ### Обзор
-* Интро
-* Технологии
-* Методологии
-* Ссылки
+
+- Интро
+- Технологии
+- Методологии
+- Ссылки
 
 **Интро**
 
@@ -12,17 +13,17 @@
 
 **Технологии**
 
-* Файл свёрстан по макету Figma
-* Испольуются технологии Flex-box и Grid
-* Верстка адаптивная и отзывчивая
+- Файл свёрстан по макету Figma
+- Испольуются технологии Flex-box и Grid
+- Верстка адаптивная и отзывчивая
 
 **Методологии**
 
-* Файловая структура Nested БЭМ
-* Принцип вёрстки Desktop-first
-
+- Файловая структура Nested БЭМ
+- Принцип вёрстки Desktop-first
 
 **Ссылки**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-* [Ссылка на проект в Github](https://github.com/ivan-lev/russian-travel)
+- [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+- [Ссылка на проект в Github](https://github.com/ivan-lev/russian-travel)
+- [Посмотреть проект на Github Pages](https://ivan-lev.github.io/russian-travel)
