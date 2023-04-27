@@ -26,6 +26,9 @@
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
+/* СТИЛИ ДЛЯ БЛОКА CONTENT */
+@import url('../blocks/content/content.css');
+
 /* СТИЛИ ДЛЯ СЕКЦИИ LEAD */
 
 @import url('../blocks/lead/lead.css');
@@ -61,10 +64,8 @@
 
 /* СТИЛИ ДЛЯ СЕКЦИИ COVER */
 
-@import url('../blocks/cover/cover.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
-@import url('../blocks/cover/__overlay/cover__overlay.css');
 @import url('../blocks/cover/__background/cover__background.css');
 
 /* СТИЛИ ДЛЯ СЕКЦИИ FOOTER */
