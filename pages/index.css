@@ -1,6 +1,6 @@
 /* ВЕНДОРНЫЕ ШРИФТЫ И ФАЙЛЫ */
 
-@import url('../vendor/normalize.css');
+@import url('../vendor/styles/normalize.css');
 @import url('fonts.css');
 
 /* ОБЩИЕ СТИЛИ ДЛЯ СТРАНИЦЫ */
