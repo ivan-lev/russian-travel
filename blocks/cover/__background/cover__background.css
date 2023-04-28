@@ -1,6 +1,7 @@
 .cover__background {
   width: 100%;
-  padding: 245px 0;
+  /* padding: 245px 0; */
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,19 +22,22 @@
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    padding: 195px 0;
+    /* padding: 195px 0; */
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
-    padding: 115px 0;
+    /* padding: 115px 0; */
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__background {
-    padding: 33px 0;
+    /* padding: 33px 0; */
+    min-height: 200px;
     gap: 16px;
   }
 }

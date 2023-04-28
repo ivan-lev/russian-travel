@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-    grid-template-columns: 460px minmax(min-content, max-content);
+    grid-template-columns: 440px minmax(min-content, max-content);
     justify-content: center;
     column-gap: 32px;
   }

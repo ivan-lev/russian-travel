@@ -1,7 +1,7 @@
 /* ВЕНДОРНЫЕ ШРИФТЫ И ФАЙЛЫ */
 
-@import url('../vendor/styles/normalize.css');
-@import url('fonts.css');
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
 
 /* ОБЩИЕ СТИЛИ ДЛЯ СТРАНИЦЫ */
 
@@ -18,10 +18,12 @@
 @import url('../blocks/section/_size/section_size_sm-narrow.css');
 @import url('../blocks/section/_size/section_size_sm-wide.css');
 
+/* СТИЛИ ДЛЯ ССЫЛОК */
+@import url('../blocks/link//link.css');
+
 /* СТИЛИ ДЛЯ СЕКЦИИ HEADER */
 
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/__logo-wrapper/header__logo-wrapper.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');

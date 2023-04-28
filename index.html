@@ -8,19 +8,12 @@
     <title>Путешествие по России</title>
   </head>
 
-  <!-- xl: 1280 to infinity -->
-  <!-- lg: 1024 to 1279 -->
-  <!-- md: 768 to 1023 -->
-  <!-- sm: 0 to 767  -->
-
-  <!-- @media screen and (max-width: 1279px) {
-}
-
-@media screen and (max-width: 1023px) {
-}
-
-@media screen and (max-width: 767px) {
-} -->
+  <!-- 
+    xl: 1280 to infinity
+    lg: 1024 to 1279 === @media screen and (max-width: 1279px) {}
+    md: _768 to 1023 === @media screen and (max-width: 1023px) {}
+    sm: ___0 to _767 === @media screen and (max-width: 767px) {}
+  -->
 
   <body class="page">
     <!-- HEADER -->
@@ -28,14 +21,9 @@
     <header
       class="header section section_size_xl-wide section_size_lg-narrow section_size_md-narrow section_size_sm-narrow"
     >
-      <div class="header__logo-wrapper">
-        <a href="#" class="header__link"
-          ><img src="images/header-logo.svg" alt="Логотип сайта" class="header__logo" />
-        </a>
-      </div>
-
-      <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
+      <a href="#" class="header__logo link"></a>
+      <a href="#" class="header__lang-link header__lang-link_active link">Ru</a>
+      <a href="#" class="header__lang-link link">En</a>
     </header>
 
     <main class="content">
@@ -166,7 +154,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__link link">park-kosa.ru</a>
           </div>
           <img src="./images/places-kosa.jpg" alt="Фотография Куршской косы" class="place__image" />
           <div class="place__text-area">
@@ -190,7 +178,7 @@
             <p class="place__url-heading">URL</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-              class="place__link"
+              class="place__link link"
               >National Geographic</a
             >
           </div>
@@ -218,7 +206,9 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a>
+            <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link link"
+              >YouTube</a
+            >
           </div>
           <img src="./images/places-altai.jpg" alt="Фотография Алтая" class="place__image" />
           <div class="place__text-area">
@@ -241,7 +231,9 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="place__link link"
+              >https://vk.com/baikalmile</a
+            >
           </div>
           <img
             src="./images/places-winter-baikal.jpg"
@@ -266,7 +258,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="place__link link">http://vodlozero.ru/</a>
           </div>
           <img src="./images/places-karelia.jpg" alt="Фотография  Карелии" class="place__image" />
           <div class="place__text-area">
@@ -303,11 +295,15 @@
       class="footer section section_size_xl-wide section_size_lg-narrow section_size_md-narrow section_size_sm-narrow"
     >
       <ul class="footer__links-list">
-        <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-        <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-        <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-        <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
-        <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+        <li><a href="https://yandex.ru/maps" class="footer__link link link">Карты</a></li>
+        <li><a href="https://yandex.ru/pogoda" class="footer__link link">Погода</a></li>
+        <li><a href="https://rasp.yandex.ru" class="footer__link link">Расписание</a></li>
+        <li>
+          <a href="https://calendar.yandex.ru" class="footer__link link">Календарь</a>
+        </li>
+        <li>
+          <a href="https://travel.yandex.ru" class="footer__link link">Путешествия</a>
+        </li>
       </ul>
       <p class="footer__copyright">© 2020. Иван Лев</p>
     </footer>

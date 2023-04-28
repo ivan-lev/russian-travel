@@ -6,7 +6,8 @@
   text-decoration: none;
 }
 
-.header__lang-link:first-child {
+.header__lang-link:first-child::before {
+  content: '';
   flex-basis: 100%;
 }
 

@@ -2,7 +2,7 @@
   max-width: 484px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 26px;
 }
 
 @media screen and (max-width: 767px) {
