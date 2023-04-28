@@ -7,6 +7,11 @@
 
 @import url('../blocks/page/page.css');
 
+/* ПРОЧИЕ СТИЛИ ДЛЯ ПРИМЕСЕЙ И СЕМАНТИКИ */
+
+@import url('../blocks/link//link.css');
+@import url('../blocks/figure/figure.css');
+
 /* СТИЛИ ДЛЯ БОКОВЫХ ОТСТУПОВ У СЕКЦИЙ */
 
 @import url('../blocks/section/_size/section_size_xl-narrow.css');
@@ -18,9 +23,6 @@
 @import url('../blocks/section/_size/section_size_sm-narrow.css');
 @import url('../blocks/section/_size/section_size_sm-wide.css');
 
-/* СТИЛИ ДЛЯ ССЫЛОК */
-@import url('../blocks/link//link.css');
-
 /* СТИЛИ ДЛЯ СЕКЦИИ HEADER */
 
 @import url('../blocks/header/header.css');
@@ -29,6 +31,7 @@
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
 /* СТИЛИ ДЛЯ БЛОКА CONTENT */
+
 @import url('../blocks/content/content.css');
 
 /* СТИЛИ ДЛЯ СЕКЦИИ LEAD */
@@ -45,7 +48,7 @@
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro-text.css');
 @import url('../blocks/intro/__list/intro__list.css');
-@import url('../blocks/intro/__digit/_font-weight/intro__digit_font-weight_normal.css');
+@import url('../blocks/intro/__digit/intro__digit.css');
 
 /* СТИЛИ ДЛЯ СЕКЦИИ PHOTO-GRID */
 
